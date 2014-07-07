@@ -1,0 +1,12 @@
+[submodule "FaceFacts/Externals/unirest-obj-c"]
+	path = FaceFacts/Externals/unirest-obj-c
+	url = https://github.com/Mashape/unirest-obj-c.git
+[submodule "FaceFacts/Externals/facepp-ios-sdk"]
+	path = FaceFacts/Externals/facepp-ios-sdk
+	url = https://github.com/FacePlusPlus/facepp-ios-sdk.git
+[submodule "FaceFacts/Externals/SFGaugeView"]
+	path = FaceFacts/Externals/SFGaugeView
+	url = https://github.com/simpliflow/SFGaugeView.git
+[submodule "FaceFacts/Externals/DejalActivityView"]
+	path = FaceFacts/Externals/DejalActivityView
+	url = https://github.com/Dejal/DejalActivityView.git
