@@ -1,4 +1,4 @@
-FaceFacts 1.0
+FaceFacts
 ==================
 Jerrad Thramer 2014
 
