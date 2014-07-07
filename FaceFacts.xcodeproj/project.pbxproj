@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43CC60121921CAA900403251 /* SFGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC60111921CAA900403251 /* SFGaugeView.m */; };
+		43CC60171921CAD300403251 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC60161921CAD300403251 /* ResultsViewController.m */; };
+		43ECBA8819215612009DC8C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ECBA8719215612009DC8C6 /* Foundation.framework */; };
+		43ECBA8A19215612009DC8C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ECBA8919215612009DC8C6 /* CoreGraphics.framework */; };
+		43ECBA8C19215612009DC8C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ECBA8B19215612009DC8C6 /* UIKit.framework */; };
+		43ECBA9219215612009DC8C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43ECBA9019215612009DC8C6 /* InfoPlist.strings */; };
+		43ECBA9419215612009DC8C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECBA9319215612009DC8C6 /* main.m */; };
+		43ECBA9819215612009DC8C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECBA9719215612009DC8C6 /* AppDelegate.m */; };
+		43ECBA9B19215612009DC8C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43ECBA9919215612009DC8C6 /* Main.storyboard */; };
+		43ECBA9E19215612009DC8C6 /* AVCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECBA9D19215612009DC8C6 /* AVCameraViewController.m */; };
+		43ECBAA019215612009DC8C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43ECBA9F19215612009DC8C6 /* Images.xcassets */; };
+		43ECBAA719215612009DC8C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ECBAA619215612009DC8C6 /* XCTest.framework */; };
+		43ECBAA819215612009DC8C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ECBA8719215612009DC8C6 /* Foundation.framework */; };
+		43ECBAA919215613009DC8C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ECBA8B19215612009DC8C6 /* UIKit.framework */; };
+		43ECBAB119215613009DC8C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43ECBAAF19215613009DC8C6 /* InfoPlist.strings */; };
+		43ECBAB319215613009DC8C6 /* FaceFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43ECBAB219215613009DC8C6 /* FaceFactsTests.m */; };
+		43F004EB19215BA60077BA2A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F004EA19215BA60077BA2A /* AVFoundation.framework */; };
+		43F004EE19215CE00077BA2A /* FaceFactsAPIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F004ED19215CE00077BA2A /* FaceFactsAPIController.m */; };
+		43F004FC19215FAF0077BA2A /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F004FB19215FAF0077BA2A /* AVCamPreviewView.m */; };
+		43F0056919217E580077BA2A /* FaceppAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0055019217E580077BA2A /* FaceppAPI.m */; };
+		43F0056A19217E580077BA2A /* FaceppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0055319217E580077BA2A /* FaceppClient.m */; };
+		43F0056B19217E580077BA2A /* FaceppDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0055519217E580077BA2A /* FaceppDetection.m */; };
+		43F0056C19217E580077BA2A /* FaceppFaceset.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0055719217E580077BA2A /* FaceppFaceset.m */; };
+		43F0056D19217E580077BA2A /* FaceppGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0055919217E580077BA2A /* FaceppGroup.m */; };
+		43F0056E19217E580077BA2A /* FaceppGrouping.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0055B19217E580077BA2A /* FaceppGrouping.m */; };
+		43F0056F19217E580077BA2A /* FaceppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0055D19217E580077BA2A /* FaceppInfo.m */; };
+		43F0057019217E580077BA2A /* FaceppPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0055F19217E580077BA2A /* FaceppPerson.m */; };
+		43F0057119217E580077BA2A /* FaceppRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0056119217E580077BA2A /* FaceppRecognition.m */; };
+		43F0057219217E580077BA2A /* FaceppTrainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0056319217E580077BA2A /* FaceppTrainer.m */; };
+		43F0057319217E580077BA2A /* FaceppError.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0056619217E580077BA2A /* FaceppError.m */; };
+		43F0057419217E580077BA2A /* FaceppResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0056819217E580077BA2A /* FaceppResult.m */; };
+		43F005E71921A4260077BA2A /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F005CF1921A4250077BA2A /* DejalActivityView.m */; };
+		43F005F41921A4260077BA2A /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43F005E41921A4260077BA2A /* License.txt */; };
+		43F005F51921A4260077BA2A /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 43F005E51921A4260077BA2A /* README.markdown */; };
+		43F006341921AB3B0077BA2A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 43F006081921AB3B0077BA2A /* LICENSE */; };
+		43F006351921AB3B0077BA2A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 43F006091921AB3B0077BA2A /* README.md */; };
+		43F006361921AB3B0077BA2A /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0060C1921AB3B0077BA2A /* Base64.m */; };
+		43F006371921AB3B0077BA2A /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0060F1921AB3B0077BA2A /* UNIBaseRequest.m */; };
+		43F006381921AB3B0077BA2A /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F006111921AB3B0077BA2A /* UNIBodyRequest.m */; };
+		43F006391921AB3B0077BA2A /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F006131921AB3B0077BA2A /* UNISimpleRequest.m */; };
+		43F0063A1921AB3B0077BA2A /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F006161921AB3B0077BA2A /* UNIHTTPBinaryResponse.m */; };
+		43F0063B1921AB3B0077BA2A /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F006181921AB3B0077BA2A /* UNIHTTPJsonResponse.m */; };
+		43F0063C1921AB3B0077BA2A /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0061A1921AB3B0077BA2A /* UNIHTTPResponse.m */; };
+		43F0063D1921AB3B0077BA2A /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0061C1921AB3B0077BA2A /* UNIHTTPStringResponse.m */; };
+		43F0063E1921AB3B0077BA2A /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F0061E1921AB3B0077BA2A /* UNIJsonNode.m */; };
+		43F0063F1921AB3B0077BA2A /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F006201921AB3B0077BA2A /* UNIHTTPClientHelper.m */; };
+		43F006401921AB3B0077BA2A /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F006221921AB3B0077BA2A /* UNIHTTPRequest.m */; };
+		43F006411921AB3B0077BA2A /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F006241921AB3B0077BA2A /* UNIHTTPRequestWithBody.m */; };
+		43F006421921AB3B0077BA2A /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F006271921AB3B0077BA2A /* UNIRest.m */; };
+		43F006431921AB3B0077BA2A /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F006291921AB3B0077BA2A /* UNIUrlConnection.m */; };
+		43F006441921AB3B0077BA2A /* Unirest.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 43F0062A1921AB3B0077BA2A /* Unirest.podspec */; };
+		43F006451921AB3B0077BA2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43F0062F1921AB3B0077BA2A /* InfoPlist.strings */; };
+		43F006461921AB3B0077BA2A /* UnirestTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43F006311921AB3B0077BA2A /* UnirestTests-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43ECBAAA19215613009DC8C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43ECBA7C19215611009DC8C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43ECBA8319215611009DC8C6;
+			remoteInfo = FaceFacts;
+		};
+		43F006491921AB3B0077BA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F0062B1921AB3B0077BA2A /* Unirest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A9E78BA916E9801F006B80FD;
+			remoteInfo = Unirest;
+		};
+		43F0064B1921AB3B0077BA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F0062B1921AB3B0077BA2A /* Unirest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A9E78BBA16E9801F006B80FD;
+			remoteInfo = UnirestTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43983EFF196A72DF009DFA84 /* keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keys.h; sourceTree = "<group>"; };
+		43CC60101921CAA900403251 /* SFGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFGaugeView.h; path = Externals/SFGaugeView/SFGaugeView/SFGaugeView.h; sourceTree = "<group>"; };
+		43CC60111921CAA900403251 /* SFGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFGaugeView.m; path = Externals/SFGaugeView/SFGaugeView/SFGaugeView.m; sourceTree = "<group>"; };
+		43CC60151921CAD300403251 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		43CC60161921CAD300403251 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		43ECBA8419215612009DC8C6 /* FaceFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43ECBA8719215612009DC8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43ECBA8919215612009DC8C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43ECBA8B19215612009DC8C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43ECBA8F19215612009DC8C6 /* FaceFacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceFacts-Info.plist"; sourceTree = "<group>"; };
+		43ECBA9119215612009DC8C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43ECBA9319215612009DC8C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43ECBA9519215612009DC8C6 /* FaceFacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceFacts-Prefix.pch"; sourceTree = "<group>"; };
+		43ECBA9619215612009DC8C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43ECBA9719215612009DC8C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43ECBA9A19215612009DC8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43ECBA9C19215612009DC8C6 /* AVCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVCameraViewController.h; sourceTree = "<group>"; };
+		43ECBA9D19215612009DC8C6 /* AVCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVCameraViewController.m; sourceTree = "<group>"; };
+		43ECBA9F19215612009DC8C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43ECBAA519215612009DC8C6 /* FaceFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43ECBAA619215612009DC8C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		43ECBAAE19215613009DC8C6 /* FaceFactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceFactsTests-Info.plist"; sourceTree = "<group>"; };
+		43ECBAB019215613009DC8C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43ECBAB219215613009DC8C6 /* FaceFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceFactsTests.m; sourceTree = "<group>"; };
+		43F004EA19215BA60077BA2A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		43F004EC19215CE00077BA2A /* FaceFactsAPIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceFactsAPIController.h; sourceTree = "<group>"; };
+		43F004ED19215CE00077BA2A /* FaceFactsAPIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceFactsAPIController.m; sourceTree = "<group>"; };
+		43F004FA19215FAF0077BA2A /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
+		43F004FB19215FAF0077BA2A /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
+		43F0054F19217E580077BA2A /* FaceppAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppAPI.h; sourceTree = "<group>"; };
+		43F0055019217E580077BA2A /* FaceppAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppAPI.m; sourceTree = "<group>"; };
+		43F0055219217E580077BA2A /* FaceppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppClient.h; sourceTree = "<group>"; };
+		43F0055319217E580077BA2A /* FaceppClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppClient.m; sourceTree = "<group>"; };
+		43F0055419217E580077BA2A /* FaceppDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppDetection.h; sourceTree = "<group>"; };
+		43F0055519217E580077BA2A /* FaceppDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppDetection.m; sourceTree = "<group>"; };
+		43F0055619217E580077BA2A /* FaceppFaceset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppFaceset.h; sourceTree = "<group>"; };
+		43F0055719217E580077BA2A /* FaceppFaceset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppFaceset.m; sourceTree = "<group>"; };
+		43F0055819217E580077BA2A /* FaceppGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppGroup.h; sourceTree = "<group>"; };
+		43F0055919217E580077BA2A /* FaceppGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppGroup.m; sourceTree = "<group>"; };
+		43F0055A19217E580077BA2A /* FaceppGrouping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppGrouping.h; sourceTree = "<group>"; };
+		43F0055B19217E580077BA2A /* FaceppGrouping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppGrouping.m; sourceTree = "<group>"; };
+		43F0055C19217E580077BA2A /* FaceppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppInfo.h; sourceTree = "<group>"; };
+		43F0055D19217E580077BA2A /* FaceppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppInfo.m; sourceTree = "<group>"; };
+		43F0055E19217E580077BA2A /* FaceppPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppPerson.h; sourceTree = "<group>"; };
+		43F0055F19217E580077BA2A /* FaceppPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppPerson.m; sourceTree = "<group>"; };
+		43F0056019217E580077BA2A /* FaceppRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppRecognition.h; sourceTree = "<group>"; };
+		43F0056119217E580077BA2A /* FaceppRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppRecognition.m; sourceTree = "<group>"; };
+		43F0056219217E580077BA2A /* FaceppTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppTrainer.h; sourceTree = "<group>"; };
+		43F0056319217E580077BA2A /* FaceppTrainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppTrainer.m; sourceTree = "<group>"; };
+		43F0056519217E580077BA2A /* FaceppError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppError.h; sourceTree = "<group>"; };
+		43F0056619217E580077BA2A /* FaceppError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppError.m; sourceTree = "<group>"; };
+		43F0056719217E580077BA2A /* FaceppResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppResult.h; sourceTree = "<group>"; };
+		43F0056819217E580077BA2A /* FaceppResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppResult.m; sourceTree = "<group>"; };
+		43F005CD1921A4250077BA2A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		43F005CE1921A4250077BA2A /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
+		43F005CF1921A4250077BA2A /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
+		43F005D01921A4250077BA2A /* DejalActivityView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DejalActivityView.podspec; sourceTree = "<group>"; };
+		43F005E41921A4260077BA2A /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		43F005E51921A4260077BA2A /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		43F006061921AB3B0077BA2A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		43F006071921AB3B0077BA2A /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		43F006081921AB3B0077BA2A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		43F006091921AB3B0077BA2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		43F0060B1921AB3B0077BA2A /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		43F0060C1921AB3B0077BA2A /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		43F0060E1921AB3B0077BA2A /* UNIBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIBaseRequest.h; sourceTree = "<group>"; };
+		43F0060F1921AB3B0077BA2A /* UNIBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIBaseRequest.m; sourceTree = "<group>"; };
+		43F006101921AB3B0077BA2A /* UNIBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIBodyRequest.h; sourceTree = "<group>"; };
+		43F006111921AB3B0077BA2A /* UNIBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIBodyRequest.m; sourceTree = "<group>"; };
+		43F006121921AB3B0077BA2A /* UNISimpleRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNISimpleRequest.h; sourceTree = "<group>"; };
+		43F006131921AB3B0077BA2A /* UNISimpleRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNISimpleRequest.m; sourceTree = "<group>"; };
+		43F006151921AB3B0077BA2A /* UNIHTTPBinaryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPBinaryResponse.h; sourceTree = "<group>"; };
+		43F006161921AB3B0077BA2A /* UNIHTTPBinaryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPBinaryResponse.m; sourceTree = "<group>"; };
+		43F006171921AB3B0077BA2A /* UNIHTTPJsonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPJsonResponse.h; sourceTree = "<group>"; };
+		43F006181921AB3B0077BA2A /* UNIHTTPJsonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPJsonResponse.m; sourceTree = "<group>"; };
+		43F006191921AB3B0077BA2A /* UNIHTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPResponse.h; sourceTree = "<group>"; };
+		43F0061A1921AB3B0077BA2A /* UNIHTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPResponse.m; sourceTree = "<group>"; };
+		43F0061B1921AB3B0077BA2A /* UNIHTTPStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPStringResponse.h; sourceTree = "<group>"; };
+		43F0061C1921AB3B0077BA2A /* UNIHTTPStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPStringResponse.m; sourceTree = "<group>"; };
+		43F0061D1921AB3B0077BA2A /* UNIJsonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIJsonNode.h; sourceTree = "<group>"; };
+		43F0061E1921AB3B0077BA2A /* UNIJsonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIJsonNode.m; sourceTree = "<group>"; };
+		43F0061F1921AB3B0077BA2A /* UNIHTTPClientHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPClientHelper.h; sourceTree = "<group>"; };
+		43F006201921AB3B0077BA2A /* UNIHTTPClientHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPClientHelper.m; sourceTree = "<group>"; };
+		43F006211921AB3B0077BA2A /* UNIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPRequest.h; sourceTree = "<group>"; };
+		43F006221921AB3B0077BA2A /* UNIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPRequest.m; sourceTree = "<group>"; };
+		43F006231921AB3B0077BA2A /* UNIHTTPRequestWithBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIHTTPRequestWithBody.h; sourceTree = "<group>"; };
+		43F006241921AB3B0077BA2A /* UNIHTTPRequestWithBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIHTTPRequestWithBody.m; sourceTree = "<group>"; };
+		43F006251921AB3B0077BA2A /* Unirest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Unirest-Prefix.pch"; sourceTree = "<group>"; };
+		43F006261921AB3B0077BA2A /* UNIRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIRest.h; sourceTree = "<group>"; };
+		43F006271921AB3B0077BA2A /* UNIRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIRest.m; sourceTree = "<group>"; };
+		43F006281921AB3B0077BA2A /* UNIUrlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNIUrlConnection.h; sourceTree = "<group>"; };
+		43F006291921AB3B0077BA2A /* UNIUrlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNIUrlConnection.m; sourceTree = "<group>"; };
+		43F0062A1921AB3B0077BA2A /* Unirest.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Unirest.podspec; sourceTree = "<group>"; };
+		43F0062B1921AB3B0077BA2A /* Unirest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Unirest.xcodeproj; sourceTree = "<group>"; };
+		43F006301921AB3B0077BA2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43F006311921AB3B0077BA2A /* UnirestTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UnirestTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43ECBA8119215611009DC8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F004EB19215BA60077BA2A /* AVFoundation.framework in Frameworks */,
+				43ECBA8A19215612009DC8C6 /* CoreGraphics.framework in Frameworks */,
+				43ECBA8C19215612009DC8C6 /* UIKit.framework in Frameworks */,
+				43ECBA8819215612009DC8C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43ECBAA219215612009DC8C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ECBAA719215612009DC8C6 /* XCTest.framework in Frameworks */,
+				43ECBAA919215613009DC8C6 /* UIKit.framework in Frameworks */,
+				43ECBAA819215612009DC8C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43ECBA7B19215611009DC8C6 = {
+			isa = PBXGroup;
+			children = (
+				43ECBA8D19215612009DC8C6 /* FaceFacts */,
+				43ECBAAC19215613009DC8C6 /* FaceFactsTests */,
+				43ECBA8619215612009DC8C6 /* Frameworks */,
+				43ECBA8519215612009DC8C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43ECBA8519215612009DC8C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43ECBA8419215612009DC8C6 /* FaceFacts.app */,
+				43ECBAA519215612009DC8C6 /* FaceFactsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43ECBA8619215612009DC8C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43F006051921AB3A0077BA2A /* unirest-obj-c */,
+				43F005CC1921A4250077BA2A /* DejalActivityView */,
+				43F0054E19217E580077BA2A /* FaceppSDK_ARC */,
+				43F004EA19215BA60077BA2A /* AVFoundation.framework */,
+				43ECBA8719215612009DC8C6 /* Foundation.framework */,
+				43ECBA8919215612009DC8C6 /* CoreGraphics.framework */,
+				43ECBA8B19215612009DC8C6 /* UIKit.framework */,
+				43ECBAA619215612009DC8C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43ECBA8D19215612009DC8C6 /* FaceFacts */ = {
+			isa = PBXGroup;
+			children = (
+				43ECBA9619215612009DC8C6 /* AppDelegate.h */,
+				43ECBA9719215612009DC8C6 /* AppDelegate.m */,
+				43ECBA9919215612009DC8C6 /* Main.storyboard */,
+				43ECBA9C19215612009DC8C6 /* AVCameraViewController.h */,
+				43ECBA9D19215612009DC8C6 /* AVCameraViewController.m */,
+				43F004FA19215FAF0077BA2A /* AVCamPreviewView.h */,
+				43F004FB19215FAF0077BA2A /* AVCamPreviewView.m */,
+				43F004EC19215CE00077BA2A /* FaceFactsAPIController.h */,
+				43F004ED19215CE00077BA2A /* FaceFactsAPIController.m */,
+				43983EFF196A72DF009DFA84 /* keys.h */,
+				43CC60101921CAA900403251 /* SFGaugeView.h */,
+				43CC60111921CAA900403251 /* SFGaugeView.m */,
+				43CC60151921CAD300403251 /* ResultsViewController.h */,
+				43CC60161921CAD300403251 /* ResultsViewController.m */,
+				43ECBA9F19215612009DC8C6 /* Images.xcassets */,
+				43ECBA8E19215612009DC8C6 /* Supporting Files */,
+			);
+			path = FaceFacts;
+			sourceTree = "<group>";
+		};
+		43ECBA8E19215612009DC8C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43ECBA8F19215612009DC8C6 /* FaceFacts-Info.plist */,
+				43ECBA9019215612009DC8C6 /* InfoPlist.strings */,
+				43ECBA9319215612009DC8C6 /* main.m */,
+				43ECBA9519215612009DC8C6 /* FaceFacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43ECBAAC19215613009DC8C6 /* FaceFactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				43ECBAB219215613009DC8C6 /* FaceFactsTests.m */,
+				43ECBAAD19215613009DC8C6 /* Supporting Files */,
+			);
+			path = FaceFactsTests;
+			sourceTree = "<group>";
+		};
+		43ECBAAD19215613009DC8C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43ECBAAE19215613009DC8C6 /* FaceFactsTests-Info.plist */,
+				43ECBAAF19215613009DC8C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43F0054E19217E580077BA2A /* FaceppSDK_ARC */ = {
+			isa = PBXGroup;
+			children = (
+				43F0054F19217E580077BA2A /* FaceppAPI.h */,
+				43F0055019217E580077BA2A /* FaceppAPI.m */,
+				43F0055119217E580077BA2A /* FaceppAPISource */,
+				43F0056419217E580077BA2A /* FaceppResult */,
+			);
+			name = FaceppSDK_ARC;
+			path = "FaceFacts/Externals/facepp-ios-sdk/FaceppSDK_ARC";
+			sourceTree = "<group>";
+		};
+		43F0055119217E580077BA2A /* FaceppAPISource */ = {
+			isa = PBXGroup;
+			children = (
+				43F0055219217E580077BA2A /* FaceppClient.h */,
+				43F0055319217E580077BA2A /* FaceppClient.m */,
+				43F0055419217E580077BA2A /* FaceppDetection.h */,
+				43F0055519217E580077BA2A /* FaceppDetection.m */,
+				43F0055619217E580077BA2A /* FaceppFaceset.h */,
+				43F0055719217E580077BA2A /* FaceppFaceset.m */,
+				43F0055819217E580077BA2A /* FaceppGroup.h */,
+				43F0055919217E580077BA2A /* FaceppGroup.m */,
+				43F0055A19217E580077BA2A /* FaceppGrouping.h */,
+				43F0055B19217E580077BA2A /* FaceppGrouping.m */,
+				43F0055C19217E580077BA2A /* FaceppInfo.h */,
+				43F0055D19217E580077BA2A /* FaceppInfo.m */,
+				43F0055E19217E580077BA2A /* FaceppPerson.h */,
+				43F0055F19217E580077BA2A /* FaceppPerson.m */,
+				43F0056019217E580077BA2A /* FaceppRecognition.h */,
+				43F0056119217E580077BA2A /* FaceppRecognition.m */,
+				43F0056219217E580077BA2A /* FaceppTrainer.h */,
+				43F0056319217E580077BA2A /* FaceppTrainer.m */,
+			);
+			path = FaceppAPISource;
+			sourceTree = "<group>";
+		};
+		43F0056419217E580077BA2A /* FaceppResult */ = {
+			isa = PBXGroup;
+			children = (
+				43F0056519217E580077BA2A /* FaceppError.h */,
+				43F0056619217E580077BA2A /* FaceppError.m */,
+				43F0056719217E580077BA2A /* FaceppResult.h */,
+				43F0056819217E580077BA2A /* FaceppResult.m */,
+			);
+			path = FaceppResult;
+			sourceTree = "<group>";
+		};
+		43F005CC1921A4250077BA2A /* DejalActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				43F005CD1921A4250077BA2A /* .gitignore */,
+				43F005CE1921A4250077BA2A /* DejalActivityView.h */,
+				43F005CF1921A4250077BA2A /* DejalActivityView.m */,
+				43F005D01921A4250077BA2A /* DejalActivityView.podspec */,
+				43F005E41921A4260077BA2A /* License.txt */,
+				43F005E51921A4260077BA2A /* README.markdown */,
+			);
+			name = DejalActivityView;
+			path = FaceFacts/Externals/DejalActivityView;
+			sourceTree = "<group>";
+		};
+		43F006051921AB3A0077BA2A /* unirest-obj-c */ = {
+			isa = PBXGroup;
+			children = (
+				43F006061921AB3B0077BA2A /* .gitignore */,
+				43F006071921AB3B0077BA2A /* .travis.yml */,
+				43F006081921AB3B0077BA2A /* LICENSE */,
+				43F006091921AB3B0077BA2A /* README.md */,
+				43F0060A1921AB3B0077BA2A /* Unirest */,
+				43F0062A1921AB3B0077BA2A /* Unirest.podspec */,
+				43F0062B1921AB3B0077BA2A /* Unirest.xcodeproj */,
+				43F0062E1921AB3B0077BA2A /* UnirestTests */,
+			);
+			name = "unirest-obj-c";
+			path = "FaceFacts/Externals/unirest-obj-c";
+			sourceTree = "<group>";
+		};
+		43F0060A1921AB3B0077BA2A /* Unirest */ = {
+			isa = PBXGroup;
+			children = (
+				43F0060B1921AB3B0077BA2A /* Base64.h */,
+				43F0060C1921AB3B0077BA2A /* Base64.m */,
+				43F0060D1921AB3B0077BA2A /* HttpRequest */,
+				43F006141921AB3B0077BA2A /* HttpResponse */,
+				43F0061F1921AB3B0077BA2A /* UNIHTTPClientHelper.h */,
+				43F006201921AB3B0077BA2A /* UNIHTTPClientHelper.m */,
+				43F006211921AB3B0077BA2A /* UNIHTTPRequest.h */,
+				43F006221921AB3B0077BA2A /* UNIHTTPRequest.m */,
+				43F006231921AB3B0077BA2A /* UNIHTTPRequestWithBody.h */,
+				43F006241921AB3B0077BA2A /* UNIHTTPRequestWithBody.m */,
+				43F006251921AB3B0077BA2A /* Unirest-Prefix.pch */,
+				43F006261921AB3B0077BA2A /* UNIRest.h */,
+				43F006271921AB3B0077BA2A /* UNIRest.m */,
+				43F006281921AB3B0077BA2A /* UNIUrlConnection.h */,
+				43F006291921AB3B0077BA2A /* UNIUrlConnection.m */,
+			);
+			path = Unirest;
+			sourceTree = "<group>";
+		};
+		43F0060D1921AB3B0077BA2A /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				43F0060E1921AB3B0077BA2A /* UNIBaseRequest.h */,
+				43F0060F1921AB3B0077BA2A /* UNIBaseRequest.m */,
+				43F006101921AB3B0077BA2A /* UNIBodyRequest.h */,
+				43F006111921AB3B0077BA2A /* UNIBodyRequest.m */,
+				43F006121921AB3B0077BA2A /* UNISimpleRequest.h */,
+				43F006131921AB3B0077BA2A /* UNISimpleRequest.m */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+		43F006141921AB3B0077BA2A /* HttpResponse */ = {
+			isa = PBXGroup;
+			children = (
+				43F006151921AB3B0077BA2A /* UNIHTTPBinaryResponse.h */,
+				43F006161921AB3B0077BA2A /* UNIHTTPBinaryResponse.m */,
+				43F006171921AB3B0077BA2A /* UNIHTTPJsonResponse.h */,
+				43F006181921AB3B0077BA2A /* UNIHTTPJsonResponse.m */,
+				43F006191921AB3B0077BA2A /* UNIHTTPResponse.h */,
+				43F0061A1921AB3B0077BA2A /* UNIHTTPResponse.m */,
+				43F0061B1921AB3B0077BA2A /* UNIHTTPStringResponse.h */,
+				43F0061C1921AB3B0077BA2A /* UNIHTTPStringResponse.m */,
+				43F0061D1921AB3B0077BA2A /* UNIJsonNode.h */,
+				43F0061E1921AB3B0077BA2A /* UNIJsonNode.m */,
+			);
+			path = HttpResponse;
+			sourceTree = "<group>";
+		};
+		43F0062C1921AB3B0077BA2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F0064A1921AB3B0077BA2A /* libUnirest.a */,
+				43F0064C1921AB3B0077BA2A /* UnirestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F0062E1921AB3B0077BA2A /* UnirestTests */ = {
+			isa = PBXGroup;
+			children = (
+				43F0062F1921AB3B0077BA2A /* InfoPlist.strings */,
+				43F006311921AB3B0077BA2A /* UnirestTests-Info.plist */,
+			);
+			path = UnirestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43ECBA8319215611009DC8C6 /* FaceFacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43ECBAB619215613009DC8C6 /* Build configuration list for PBXNativeTarget "FaceFacts" */;
+			buildPhases = (
+				43ECBA8019215611009DC8C6 /* Sources */,
+				43ECBA8119215611009DC8C6 /* Frameworks */,
+				43ECBA8219215611009DC8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceFacts;
+			productName = FaceFacts;
+			productReference = 43ECBA8419215612009DC8C6 /* FaceFacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43ECBAA419215612009DC8C6 /* FaceFactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43ECBAB919215613009DC8C6 /* Build configuration list for PBXNativeTarget "FaceFactsTests" */;
+			buildPhases = (
+				43ECBAA119215612009DC8C6 /* Sources */,
+				43ECBAA219215612009DC8C6 /* Frameworks */,
+				43ECBAA319215612009DC8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43ECBAAB19215613009DC8C6 /* PBXTargetDependency */,
+			);
+			name = FaceFactsTests;
+			productName = FaceFactsTests;
+			productReference = 43ECBAA519215612009DC8C6 /* FaceFactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43ECBA7C19215611009DC8C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = JerradThramer;
+				TargetAttributes = {
+					43ECBAA419215612009DC8C6 = {
+						TestTargetID = 43ECBA8319215611009DC8C6;
+					};
+				};
+			};
+			buildConfigurationList = 43ECBA7F19215611009DC8C6 /* Build configuration list for PBXProject "FaceFacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43ECBA7B19215611009DC8C6;
+			productRefGroup = 43ECBA8519215612009DC8C6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 43F0062C1921AB3B0077BA2A /* Products */;
+					ProjectRef = 43F0062B1921AB3B0077BA2A /* Unirest.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				43ECBA8319215611009DC8C6 /* FaceFacts */,
+				43ECBAA419215612009DC8C6 /* FaceFactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		43F0064A1921AB3B0077BA2A /* libUnirest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUnirest.a;
+			remoteRef = 43F006491921AB3B0077BA2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43F0064C1921AB3B0077BA2A /* UnirestTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnirestTests.octest;
+			remoteRef = 43F0064B1921AB3B0077BA2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43ECBA8219215611009DC8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F006351921AB3B0077BA2A /* README.md in Resources */,
+				43ECBAA019215612009DC8C6 /* Images.xcassets in Resources */,
+				43F006461921AB3B0077BA2A /* UnirestTests-Info.plist in Resources */,
+				43F006451921AB3B0077BA2A /* InfoPlist.strings in Resources */,
+				43F006441921AB3B0077BA2A /* Unirest.podspec in Resources */,
+				43F006341921AB3B0077BA2A /* LICENSE in Resources */,
+				43F005F51921A4260077BA2A /* README.markdown in Resources */,
+				43ECBA9219215612009DC8C6 /* InfoPlist.strings in Resources */,
+				43F005F41921A4260077BA2A /* License.txt in Resources */,
+				43ECBA9B19215612009DC8C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43ECBAA319215612009DC8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ECBAB119215613009DC8C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43ECBA8019215611009DC8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F0063A1921AB3B0077BA2A /* UNIHTTPBinaryResponse.m in Sources */,
+				43ECBA9E19215612009DC8C6 /* AVCameraViewController.m in Sources */,
+				43F0063C1921AB3B0077BA2A /* UNIHTTPResponse.m in Sources */,
+				43F0057319217E580077BA2A /* FaceppError.m in Sources */,
+				43F0057019217E580077BA2A /* FaceppPerson.m in Sources */,
+				43ECBA9819215612009DC8C6 /* AppDelegate.m in Sources */,
+				43F0063E1921AB3B0077BA2A /* UNIJsonNode.m in Sources */,
+				43F0056F19217E580077BA2A /* FaceppInfo.m in Sources */,
+				43F006401921AB3B0077BA2A /* UNIHTTPRequest.m in Sources */,
+				43F0056B19217E580077BA2A /* FaceppDetection.m in Sources */,
+				43ECBA9419215612009DC8C6 /* main.m in Sources */,
+				43F0056E19217E580077BA2A /* FaceppGrouping.m in Sources */,
+				43F0056C19217E580077BA2A /* FaceppFaceset.m in Sources */,
+				43CC60121921CAA900403251 /* SFGaugeView.m in Sources */,
+				43F006361921AB3B0077BA2A /* Base64.m in Sources */,
+				43F0063D1921AB3B0077BA2A /* UNIHTTPStringResponse.m in Sources */,
+				43F0056A19217E580077BA2A /* FaceppClient.m in Sources */,
+				43CC60171921CAD300403251 /* ResultsViewController.m in Sources */,
+				43F0056919217E580077BA2A /* FaceppAPI.m in Sources */,
+				43F0063B1921AB3B0077BA2A /* UNIHTTPJsonResponse.m in Sources */,
+				43F006421921AB3B0077BA2A /* UNIRest.m in Sources */,
+				43F0057119217E580077BA2A /* FaceppRecognition.m in Sources */,
+				43F004EE19215CE00077BA2A /* FaceFactsAPIController.m in Sources */,
+				43F006391921AB3B0077BA2A /* UNISimpleRequest.m in Sources */,
+				43F0056D19217E580077BA2A /* FaceppGroup.m in Sources */,
+				43F004FC19215FAF0077BA2A /* AVCamPreviewView.m in Sources */,
+				43F005E71921A4260077BA2A /* DejalActivityView.m in Sources */,
+				43F006381921AB3B0077BA2A /* UNIBodyRequest.m in Sources */,
+				43F0057219217E580077BA2A /* FaceppTrainer.m in Sources */,
+				43F006411921AB3B0077BA2A /* UNIHTTPRequestWithBody.m in Sources */,
+				43F006431921AB3B0077BA2A /* UNIUrlConnection.m in Sources */,
+				43F0057419217E580077BA2A /* FaceppResult.m in Sources */,
+				43F006371921AB3B0077BA2A /* UNIBaseRequest.m in Sources */,
+				43F0063F1921AB3B0077BA2A /* UNIHTTPClientHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43ECBAA119215612009DC8C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43ECBAB319215613009DC8C6 /* FaceFactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43ECBAAB19215613009DC8C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43ECBA8319215611009DC8C6 /* FaceFacts */;
+			targetProxy = 43ECBAAA19215613009DC8C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43ECBA9019215612009DC8C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43ECBA9119215612009DC8C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43ECBA9919215612009DC8C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43ECBA9A19215612009DC8C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43ECBAAF19215613009DC8C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43ECBAB019215613009DC8C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43F0062F1921AB3B0077BA2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F006301921AB3B0077BA2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43ECBAB419215613009DC8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43ECBAB519215613009DC8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43ECBAB719215613009DC8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jerrad Thramer (2JC4828XNM)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceFacts/FaceFacts-Prefix.pch";
+				INFOPLIST_FILE = "FaceFacts/FaceFacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43ECBAB819215613009DC8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceFacts/FaceFacts-Prefix.pch";
+				INFOPLIST_FILE = "FaceFacts/FaceFacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		43ECBABA19215613009DC8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FaceFacts.app/FaceFacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceFacts/FaceFacts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FaceFactsTests/FaceFactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		43ECBABB19215613009DC8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FaceFacts.app/FaceFacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceFacts/FaceFacts-Prefix.pch";
+				INFOPLIST_FILE = "FaceFactsTests/FaceFactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43ECBA7F19215611009DC8C6 /* Build configuration list for PBXProject "FaceFacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43ECBAB419215613009DC8C6 /* Debug */,
+				43ECBAB519215613009DC8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43ECBAB619215613009DC8C6 /* Build configuration list for PBXNativeTarget "FaceFacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43ECBAB719215613009DC8C6 /* Debug */,
+				43ECBAB819215613009DC8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43ECBAB919215613009DC8C6 /* Build configuration list for PBXNativeTarget "FaceFactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43ECBABA19215613009DC8C6 /* Debug */,
+				43ECBABB19215613009DC8C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43ECBA7C19215611009DC8C6 /* Project object */;
+}
